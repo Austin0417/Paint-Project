@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="14" failures="4" disabled="0" errors="0" time="9.856" timestamp="2020-12-14T19:12:20.781" name="AllTests">
+  <testsuite name="PaintProgramInheritanceTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2020-12-14T19:12:20.782">
+    <testcase name="InheritsFromButtonListener" status="run" result="completed" time="0" timestamp="2020-12-14T19:12:20.782" classname="PaintProgramInheritanceTest" />
+  </testsuite>
+  <testsuite name="PaintProgramTest" tests="13" failures="4" disabled="0" skipped="0" errors="0" time="9.855" timestamp="2020-12-14T19:12:20.782">
+    <testcase name="HasEnoughButtons" status="run" result="completed" time="0.016" timestamp="2020-12-14T19:12:20.782" classname="PaintProgramTest" />
+    <testcase name="HasValidButtonTypes" status="run" result="completed" time="0.002" timestamp="2020-12-14T19:12:20.798" classname="PaintProgramTest" />
+    <testcase name="ButtonSizesAndPositions" status="run" result="completed" time="0.001" timestamp="2020-12-14T19:12:20.800" classname="PaintProgramTest" />
+    <testcase name="ColorButtonsHaveAtLeastOnePixelOfCorrectColor" status="run" result="completed" time="0.002" timestamp="2020-12-14T19:12:20.801" classname="PaintProgramTest" />
+    <testcase name="ImageIsInitiallyWhiteExceptButtons" status="run" result="completed" time="0.069" timestamp="2020-12-14T19:12:20.803" classname="PaintProgramTest" />
+    <testcase name="BucketFillsWithColorOnMouseDown" status="run" result="completed" time="4.085" timestamp="2020-12-14T19:12:20.873" classname="PaintProgramTest" />
+    <testcase name="PencilDrawsAPixelOnClick" status="run" result="completed" time="0.811" timestamp="2020-12-14T19:12:24.958" classname="PaintProgramTest" />
+    <testcase name="PencilDrawsALineOnClickAndDrag" status="run" result="completed" time="1.961" timestamp="2020-12-14T19:12:25.769" classname="PaintProgramTest" />
+    <testcase name="BrushDrawsACircleOnClick" status="run" result="completed" time="0.591" timestamp="2020-12-14T19:12:27.731" classname="PaintProgramTest">
+      <failure message="../settings/unittest.cc:435&#x0A;Value of: ImageIsColorExceptForButtons(white)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found." type=""><![CDATA[../settings/unittest.cc:435
+Value of: ImageIsColorExceptForButtons(white)
+  Actual: false
+Expected: true
+    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found.]]></failure>
+      <failure message="../settings/unittest.cc:435&#x0A;Value of: ImageIsColorExceptForButtons(white)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found." type=""><![CDATA[../settings/unittest.cc:435
+Value of: ImageIsColorExceptForButtons(white)
+  Actual: false
+Expected: true
+    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found.]]></failure>
+      <failure message="../settings/unittest.cc:435&#x0A;Value of: ImageIsColorExceptForButtons(white)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found." type=""><![CDATA[../settings/unittest.cc:435
+Value of: ImageIsColorExceptForButtons(white)
+  Actual: false
+Expected: true
+    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found.]]></failure>
+      <failure message="../settings/unittest.cc:435&#x0A;Value of: ImageIsColorExceptForButtons(white)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found." type=""><![CDATA[../settings/unittest.cc:435
+Value of: ImageIsColorExceptForButtons(white)
+  Actual: false
+Expected: true
+    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found.]]></failure>
+      <failure message="../settings/unittest.cc:435&#x0A;Value of: ImageIsColorExceptForButtons(white)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found." type=""><![CDATA[../settings/unittest.cc:435
+Value of: ImageIsColorExceptForButtons(white)
+  Actual: false
+Expected: true
+    Your Brush should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be colored besides the buttons, but other colored pixels were found.]]></failure>
+    </testcase>
+    <testcase name="BrushDrawsAThickLineOnDrag" status="run" result="completed" time="0.048" timestamp="2020-12-14T19:12:28.322" classname="PaintProgramTest">
+      <failure message="../settings/unittest.cc:452&#x0A;Value of: is_white&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    A click on the brush button should not cause any drawing besides changes to buttons. Try clicking the PaintProgram brush button and ensure that no pixels are changed." type=""><![CDATA[../settings/unittest.cc:452
+Value of: is_white
+  Actual: false
+Expected: true
+    A click on the brush button should not cause any drawing besides changes to buttons. Try clicking the PaintProgram brush button and ensure that no pixels are changed.]]></failure>
+    </testcase>
+    <testcase name="ButtonsDrawOnTopOfTools" status="run" result="completed" time="0.161" timestamp="2020-12-14T19:12:28.370" classname="PaintProgramTest" />
+    <testcase name="EraserDrawsACircleOnClick" status="run" result="completed" time="0.908" timestamp="2020-12-14T19:12:28.531" classname="PaintProgramTest">
+      <failure message="../settings/unittest.cc:630&#x0A;Value of: ImageIsColorExceptForButtons(color)&#x0A;  Actual: false&#x0A;Expected: true&#x0A;    Your eraser should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be white besides the buttons, but other white pixels were found." type=""><![CDATA[../settings/unittest.cc:630
+Value of: ImageIsColorExceptForButtons(color)
+  Actual: false
+Expected: true
+    Your eraser should only draw at the (x, y) coordinate of a kPressed MouseEvent with a width of 20 (radius 10). No other pixels should be white besides the buttons, but other white pixels were found.]]></failure>
+    </testcase>
+    <testcase name="EraserDrawsAThickLineOnDrag" status="run" result="completed" time="1.198" timestamp="2020-12-14T19:12:29.439" classname="PaintProgramTest">
+      <failure message="../settings/unittest.cc:723&#x0A;Value of: match&#x0A;  Actual: false&#x0A;Expected: true&#x0A;   The PaintProgram did not send a MoveTo to the eraser when a kDragged happened, or it did not send the MoveTo using the correct coordinates from the dragged MouseEvent. See the comparison of your PaintProgram output and the expected output at EraserDrawsAThickLineOnDrag.bmp. A differing pixel was found at (346, 26). Note that pixels belonging to buttons were ignored." type=""><![CDATA[../settings/unittest.cc:723
+Value of: match
+  Actual: false
+Expected: true
+   The PaintProgram did not send a MoveTo to the eraser when a kDragged happened, or it did not send the MoveTo using the correct coordinates from the dragged MouseEvent. See the comparison of your PaintProgram output and the expected output at EraserDrawsAThickLineOnDrag.bmp. A differing pixel was found at (346, 26). Note that pixels belonging to buttons were ignored.]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
